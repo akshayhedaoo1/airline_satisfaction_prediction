@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+   
+
+    <body>  
+    
+        <h1> Airline Satisfaction Prediction</h1><br>
+
+        <form method="POST" action="{{ url_for('predict') }}">
+        <b> <label for="travel_class">Select Travel Class:</label>
+            <select name="travel_class" id='travel_class'> 
+              <option value="echo">Echo</option>
+              <option value="eco_plus">Eco-plus</option>
+              <option value="business">Business</option>
+            </select><br><br>
+            <br><br>
+            Please enter your Ratings from 0 to 5 below <br><br>
+            <br><br>
+            Inflight Wifi Service : <input type ='text', name= 'inflight_wifi', required="required"> <br><br>
+            Arrival/Departure time Convenient : <input type ='text', name= 'time_convenient', required="required"> <br><br>
+            Ease of Online booking	: <input type ='text', name= 'online_booking', required="required"> <br><br>
+            Online boarding	: <input type ='text', name= 'online_boarding', required="required"> <br><br>
+            Inflight entertainment	: <input type ='text', name= 'inflight_entertain', required="required"> <br><br>
+            On-board service	: <input type ='text', name= 'onboard_service', required="required"> <br><br>
+            Leg room service	: <input type ='text', name= 'leg_room_service', required="required"> <br><br>
+            Checkin service	: <input type ='text', name= 'checkin_service', required="required"> <br><br>
+            Cleanliness	: <input type ='text', name= 'cleanliness', required="required"> <br><br>   
+        </b>
+
+        <input type="submit" name="submit" value="Submit" id="submit" />
+
+    
+
+
+        </form>
+        
+                <br><br><h3>{{ prediction_text }}<h3>
+
+                    
+        <style>
+            h1 {text-align: center; color : #4B0082; font-family: "Lucida Console", "Courier New", monospace;}
+            form {text-align: center; color: #000000; }
+            h3 {text-align: center; color: #000000; font-family: cursive;}
+            
+            #submit{background:#016ABC; color:#fff; border:1pxsolid#eee;
+            border-radius:20px; box-shadow:5px5px5px#eee;text-shadow:none;}     
+            .form-submit-button:hover {
+                background:#016ABC;
+                color:#fff;
+                border:1pxsolid#eee;
+                border-radius:20px;
+                box-shadow:5px5px5px#eee;
+                text-shadow:none;}
+            h3 {text-align: center;}
+
+            body {
+	            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	            background-size: 400% 400%;
+	            -webkit-animation: gradient 15s ease infinite;
+	            animation: gradient 15s ease infinite;
+                }
+
+            @-webkit-keyframes gradient {
+	            0% {
+		        background-position: 0% 50%;
+	            }
+	            50% {
+		        background-position: 100% 50%;
+	            }
+	            100% {
+		        background-position: 0% 50%;
+	            }
+                }
+
+            @keyframes gradient {
+	            0% {
+		        background-position: 0% 50%;
+	            }
+	            50% {
+		        background-position: 100% 50%;
+	            }
+	            100% {
+		        background-position: 0% 50%;
+	            }
+                }
+                        </style>
+            
+    </body>
+</html>
+
+
