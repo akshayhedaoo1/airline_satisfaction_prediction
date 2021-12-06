@@ -1,11 +1,7 @@
 # airline_satisfaction_prediction
 
-In this task, we are predicting Airline satisfaction of Customers based on the Reviews given by the Customers in different Categories such as On-board service, Leg room service, Baggage handling, Checkin service etc. Here, we have 25 features in which satisfaction is our target.
+In this task, We are predicting Airline satisfaction of Customers based on the Reviews given by the Customers in different Categories such as On-board service, Leg room service, Baggage handling, Checkin service etc.
 
-Step 1 : Data Understanding and Exploration
+![Annotation 2021-12-06 135613](https://user-images.githubusercontent.com/84308415/144812454-c18b845c-7af2-461e-abee-bb07e40d7120.png)
 
-Step 2 : Data Preparation
 
-Step 3 : Model Building and Training using various Models such as Logistic Regression, Decision Tree, K-nearest Neighbors, Random Forest
-
-Step 4 : Evaluation using various metrics
