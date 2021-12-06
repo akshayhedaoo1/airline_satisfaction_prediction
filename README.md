@@ -1,5 +1,4 @@
 # airline_satisfaction_prediction
-link : https://airline-satisfaction-predict.herokuapp.com/
 
 In this task, we are predicting Airline satisfaction of Customers based on the Reviews given by the Customers in different Categories such as On-board service, Leg room service, Baggage handling, Checkin service etc. Here, we have 25 features in which satisfaction is our target.
 
