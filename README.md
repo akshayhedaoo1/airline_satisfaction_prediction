@@ -1,4 +1,4 @@
-# airline_satisfaction_prediction
+# Airline Satisfaction Prediction
 
 In this task, We are predicting Airline satisfaction of Customers based on the Reviews given by the Customers in different Categories such as On-board service, Leg room service, Baggage handling, Checkin service etc.
 
